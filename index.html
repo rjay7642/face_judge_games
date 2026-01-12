@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Face Judge 😈</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+
+  <!-- HEADER -->
+  <div id="header">
+    <h1>FACE JUDGE 🤖</h1>
+    <p>AI is analyzing your face...</p>
+  </div>
+
+  <!-- CAMERA SECTION -->
+  <div id="camera-section">
+
+    <div id="scanner-box">
+      <video id="camera" autoplay playsinline></video>
+      <div class="scan-line"></div>
+    </div>
+
+    <div id="scan-text">AI Neural Scan Running...</div>
+
+    <button id="judgeBtn" class="neon-btn">JUDGE ME 😈</button>
+
+  </div>
+
+  <!-- RESULT SECTION -->
+  <div id="result-section" class="hidden">
+    <img id="meme-image" src="">
+    <div id="result-text">NPC DETECTED 💀</div>
+
+    <button id="judgeAgainBtn" class="neon-btn hidden">JUDGE AGAIN 🤖</button>
+  </div>
+
+  <!-- BANNER AD -->
+  <div id="ad-banner">
+    <span>Ad loading...</span>
+  </div>
+
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
