@@ -10,18 +10,18 @@ const SCAN_MAX = 8000;
 const RESULT_SHOW_TIME = 2000; // only delay before showing button
 
 const savagePairs = [
-  { img: "assets/memes/meme1.png", voice: "assets/voices/roast1.mp3", text: "CHLA JA BSDK..💀" },
-  { img: "assets/memes/meme2.png", voice: "assets/voices/roast2.mp3", text: "AAP YHA AAJYE" },
-  { img: "assets/memes/meme3.png", voice: "assets/voices/roast3.mp3", text: "ABE SAALE" },
-  { img: "assets/memes/meme4.png", voice: "assets/voices/roast4.mp3", text: "NPC DETECTED 💀" },
-  { img: "assets/memes/meme5.png", voice: "assets/voices/roast5.mp3", text: "YE KYA BAK RHE HO CHADARMOD" },
-  { img: "assets/memes/meme6.png", voice: "assets/voices/roast6.mp3", text: "BOL NA BE" },
-  { img: "assets/memes/meme7.png", voice: "assets/voices/roast7.mp3", text: "🤡" },
-  { img: "assets/memes/meme8.png", voice: "assets/voices/roast8.mp3", text: "SYSTEM REJECTED ❌" }
+  { img: "meme1.png", voice: "roast1.mp3", text: "CHLA JA BSDK..💀" },
+  { img: "meme2.png", voice: "roast2.mp3", text: "AAP YHA AAJYE" },
+  { img: "meme3.png", voice: "roast3.mp3", text: "ABE SAALE" },
+  { img: "meme4.png", voice: "roast4.mp3", text: "NPC DETECTED 💀" },
+  { img: "meme5.png", voice: "roast5.mp3", text: "YE KYA BAK RHE HO CHADARMOD" },
+  { img: "meme6.png", voice: "roast6.mp3", text: "BOL NA BE" },
+  { img: "meme7.png", voice: "roast7.mp3", text: "🤡" },
+  { img: "meme8.png", voice: "roast8.mp3", text: "SYSTEM REJECTED ❌" }
 ];
 
 const goodPairs = [
-  { img: "assets/memes/meme9.png", voice: "assets/voices/good1.mp3", text: "SIGMA FACE 😎" }
+  { img: "meme9.png", voice: "good1.mp3", text: "SIGMA FACE 😎" }
 ];
 
 let scanning = false;
